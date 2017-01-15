@@ -1,3 +1,5 @@
+window.N = window.N || {};
+Nagisa = N;
 N.Utils = N.Utils || {};
 N.Agreements = N.Agreements || {};
 

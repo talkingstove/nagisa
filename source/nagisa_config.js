@@ -1,7 +1,8 @@
 /********
 * global vars to vonfigure the nagisa framework
 *********/
-
+window.N = window.N || {};
+Nagisa = N;
 N.defaultTemplateLanguage = 'underscore';
 
 _.templateSettings = { //Underscore Templates.

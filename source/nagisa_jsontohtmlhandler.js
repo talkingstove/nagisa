@@ -1,3 +1,5 @@
+window.N = window.N || {};
+Nagisa = N;
 N.JsonToHtmlHandler = function(params) {
   this.dataPath = params.dataPath || null;
   this.domTarget = params.domTarget;

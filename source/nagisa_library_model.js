@@ -1,7 +1,8 @@
 /****
 * Library to which reference classes are added
 *******/
-
+window.N = window.N || {};
+Nagisa = N;
 N.Library.referenceLibrary = [];
 
 N.Library.lookUpReferenceById = function(id) {

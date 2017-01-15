@@ -1,7 +1,8 @@
 /*******
 * ajax wrapper with default error handling, etc
 **************/
-
+window.N = window.N || {};
+Nagisa = N;
 N.Ajax = N.Ajax || {};
 
 N.Ajax.makeAjaxCall = function(options) {
